@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header__slogan{
+    float: right;
+    margin-right: 100px;
+}
+
+.header ul{
+    padding: 0;
+}
+
+.header ul li{
+    list-style: none;
+}
+
+.header ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: gray;
+    font-weight: bold;
+}
+
+.header__home{
+    padding-bottom: 5px;
+    border-bottom: 4px solid brown;
+}
+
+.poster{
+    margin-top: 20px;
+    background-image: url(./img/slider_1.png);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#introduce{
+    text-align: center;
+}
+
+h2{
+    margin: 60px 0 5px 0;
+}
+
+#introduce p{
+    margin: 10px 20px 0 20px;
+    color: gray;
+    font-size: 18px;
+}
+
+.programs__content1{
+    text-align: center;
+}
+
+.programs__item{
+    float: left;
+    width: 25%;
+}
+
+.programs__item img{
+    width: 100%;
+    padding: 10px 20px 5px 0;
+}
+
+.programs__item h4{
+    color: brown;
+    margin: 7px 0 7px 0;
+}
+
+.programs__item p{
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 50px 5px;
+}
+
+.eventNews__content1{
+    text-align: center;
+}
+
+.eventNews__content1 img{
+    margin: 0 0 15px 0;
+}
+
+.eventNews__content2{
+    background-image: url(./img/tin_tuc_1.png);
+    width: 49%;
+    height: 400px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 4px solid brown;
+    position: relative;
+}
+
+.eventNews__content2 p{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px 15px 10px;
+    bottom: 0;
+}
+
+.eventNews__content3{
+    width: 49%;   
+    height: 400px;
+    float: right;
+}
+
+.eventNews__item1{
+    background-image: url(./img/tin_tuc_2.png);
+    height: 195px;
+    width: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    border-bottom: 4px solid brown;
+    position: relative;
+}
+
+.eventNews__item2{
+    background-image: url(./img/tin_tuc_3.png);
+    height: 195px;
+    width: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    border-bottom: 4px solid brown;
+    position: relative;
+}
+
+.eventNews__item3{
+    background-image: url(./img/tin_tuc_4.png);
+    height: 195px;
+    width: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    bottom: -10px;
+    border-bottom: 4px solid brown;
+    position: relative;
+}
+
+.eventNews__item4{
+    background-image: url(./img/tin_tuc_5.png);
+    height: 195px;
+    width: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    bottom: -10px;
+    border-bottom: 4px solid brown;
+    position: relative;
+}
+
+.eventNews__content3 p{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 20px 10px 10px;
+    bottom: 0;
+}
+
+
+
+
